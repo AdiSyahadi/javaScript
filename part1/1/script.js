@@ -127,3 +127,27 @@ console.log(BMIJohn,BMIMark);
 
 const BMIJohnBMIMark = BMIJohn > BMIMark ;
 console.log(BMIJohnBMIMark);
+
+
+const firstName = 'Joni';
+const job = 'Teacher';
+const birthDay = 1991;
+const year = 2022;
+
+//cara 1
+const joni =  "I'am" + firstName + ",a" + (year - birthDay) + "years old" + job + "!";
+console.log(joni);
+
+//cara 2 yang ada di ES6
+
+const joniNew = `I'am ${firstName}, a ${year - birthDay} year old ${job} !`;
+console.log(joniNew);
+
+//cara 1
+console.log('string dengan\nmultiple\nline')
+
+//cara 2 menggunakan backtick 
+
+console.log(`string dengan
+multiple
+line`)
