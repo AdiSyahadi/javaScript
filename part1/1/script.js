@@ -49,6 +49,7 @@ console.log(javascriptIsFun); */
 
 // Penggunaan let, const, dan var dalam penulisan variabel
 
+/*
 let age = 30; //variabel yang bisa di update nilainya
 age= 31; //maka isi dari variabel age akan berubah/update menjadi 31
 
@@ -56,4 +57,33 @@ const tahunLahir = 1996; //menggunakan const maka variabel yang  tidak bisa di u
 tahunLahir = 1997; // variabel tahunLahir tidak akan bisa di ubah/update
 
 var kerja = 'prorgamer' //variabel yang bisa di update nilainya
-kerja = 'pengajar' // maka akan berubah menjadi pengajar
+kerja = 'pengajar' // maka akan berubah menjadi pengajar */
+
+//OPERATOR DALAM JAVASCRIPT
+
+// OPERATOR MATEMATIK
+let tahunSekarang = 2022;
+const adiSyahadi = tahunSekarang - 1996;
+const anisaSetianingsih = 2022 - 1998;
+console.log(adiSyahadi, anisaSetianingsih);
+
+console.log(adiSyahadi * 2, anisaSetianingsih / 10, 2 ** 3);
+
+const namaDepan = 'Juned';
+const namaBelakang = 'Mulyadi';
+console.log(namaDepan + namaBelakang);
+console.log(namaDepan + ' ' + namaBelakang);
+
+//ASSIGNT OPPERATOR
+let x = 10 + 5;
+x += 10; //hasil nilai x kemudian di tambah 10
+x *= 10; // hasil nilai x kemudian di kali 10
+x ++;
+x --;
+console.log(x);
+
+// Operator Perbandingan
+console.log(adiSyahadi > anisaSetianingsih);
+console.log(adiSyahadi < anisaSetianingsih);
+console.log(adiSyahadi >= 20);
+console.log(21  <= anisaSetianingsih);
