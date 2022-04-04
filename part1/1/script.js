@@ -86,3 +86,17 @@ console.log(adiSyahadi > anisaSetianingsih);
 console.log(adiSyahadi < anisaSetianingsih);
 console.log(adiSyahadi >= 20);
 console.log(21  <= anisaSetianingsih);
+
+/Operator Precendece
+
+let tahunSekarang = 2022;
+const adiSyahadi = tahunSekarang - 1996;
+const anisaSetianingsih = 2022 - 1998;
+
+console.log(tahunSekarang - 1996 > tahunSekarang - 2019);
+
+let x,y;
+x = y = 30 - 26 + 5; // mengeksekusi dari kana ke kiri
+// 30 - 26 + 5 = 9 maka nila x adalah y dan y memiliki nilai 9
+console.log(x,y);
+//maka hasilnya adalah x = 9 dan y = 9
